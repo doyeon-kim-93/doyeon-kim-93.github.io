@@ -73,10 +73,23 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   z-index: -1;
 }
 
-.container2{
-  width: 560px;
-  height: 315px;
+.poject-content{
+  width: 400px;
+  height: 300px;
+  box-sizing: content-box;
 }
+
+.poject-content2{
+  width: 400px;
+  height: 300px;
+  box-sizing: content-box;
+}
+
+/* .box{
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+} */
 #skills-word{
   color: black;
 }
@@ -84,7 +97,12 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 #about2{
   color: black;
 }
-
+tr{
+  padding: 0;
+}
+td{
+  padding: 0;
+}
 body {
   margin: 0;
   padding: 0;
